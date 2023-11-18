@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>なべしーのweb page</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style-sp.css">
+</head>
+
+<body>
+    <!-- ヘッダーのコードここから -->
+    <header class="header" id="top-page">
+        <div class="header-contents">
+            <ul class="header-logolist">
+                <li class="header-logo-cotent">
+                    <a href="#top-page">
+                        <figure class="header-logo">
+                            <img src="./img/チームロゴ(2023.11ハッカソン).png" alt="チームロゴ" width="100" height="100">
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+            <ul class="header-link-list">
+                <li class="header-link-content">
+                    <a href="#ablut_me_section">自己紹介</a>
+                </li>
+                <li class="header-link-content">
+                    <a href="#member_section">メンバー紹介</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </header>
+    <!-- ヘッダーのコードここまで -->
+    <main>
+        <!-- 自己紹介のコードここから -->
+        <section class="about_me_section" id="about_me_section">
+            <h1 class="about_me_title">～自己紹介～</h1>
+                <div class="about_me">
+                        <img src="./img/なべC.jpg" alt="" class="my_img">
+                    <ul class="about_me_list">
+                        <li>・名前：鍋島士童</li>
+                        <li>・大学・学部・学科 <br> 芝浦工業大学・工学部・情報工学科</li>
+                        <li>・得意科目：物理</li>
+                        <li>・好きな中華料理：エビチリ</li>
+                        <li>・バイト：お蕎麦屋さんと塾講師の二刀流</li>
+                    </ul>
+                </div>
+            <ul class="about_me_img_list">
+                <li class="about_me_img">
+                    <figure>
+                        <img src="./img/programmingーいらすと.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="about_me_img">
+                    <figure>
+                        <img src="./img/物理.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="about_me_img">
+                    <figure>
+                        <img src="./img/エビチリ.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
+            <div class="question_container">
+                <h2 class="question_title">～質問箱～</h2>
+                <div class="question">
+                    <input value="" id="question-input" type="text" placeholder=" なべCへの質問を入力してください。"class="question-input">
+                    <button onclick="question_button()" class="question-button">質問！</button>
+                </div>
+            </div>
+        </section>
+        <!-- 自己紹介のコードここまで -->
+        <!-- メンバー紹介のコードここから -->
+        <section class="member_section" id="member_section">
+            <h1 class="member_title">～メンバー紹介～</h1>
+            <ul class="member_list" id="member_list">
+                <li class="member" id="member_1">
+                    <div class="member-div">
+                        <figure class="member_img">
+                            <img src="./img/なつね.jpg" alt="夏寧">
+                            <img src="./img/チームロゴ(2023.11ハッカソン).png" alt="ろご">
+                        </figure>
+                        <ul class="member_introduce">
+                            <li>名前 : なつね</li>
+                            <li>好きな中華料理 : チャーハン</li>
+                            <li>なつねはこんな人！ <br> 意思表示がはっきりしてる！</li>
+                            <li>なつねにひとこと！ <br> いつも頼りにしてます！</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="member" id="member_2">
+                    <div class="member-div">
+                        <figure class="member_img">
+                            <img src="./img/チームロゴ(2023.11ハッカソン).png" alt="">
+                            <img src="./img/めい(1).jpg" alt="めい">
+                        </figure>
+                        <ul class="member_introduce">
+                            <li>名前 : めい</li>
+                            <li>好きな中華料理 : 小籠包</li>
+                            <li>めいはこんな人！ <br> いつも明るい！</li>
+                            <li>めいにひとこと！ <br> 気軽に話して！</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="member" id="member_3">
+                    <div class="member-div">
+                        <figure class="member_img">
+                            <img src="./img/じゅんせい.jpg" alt="じゅんせい">
+                            <img src="./img/チームロゴ(2023.11ハッカソン).png" alt="ロゴ">
+                        </figure>
+                        <ul class="member_introduce">
+                            <li>名前 : じゅんせい</li>
+                            <li>好きな中華料理 : ラーメン</li>
+                            <li>じゅんせいはこんな人！ <br> 恋バナが大好き</li>
+                            <li>じゅんせいにひとこと！ <br> 今度遊ぼ！</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="member" id="member-4">
+                    <div class="member-div">
+                        <figure class="member_img">
+                            <img src="./img/チームロゴ(2023.11ハッカソン).png" alt="ろご">
+                            <img src="./img/美咲.jpg" alt="みさき">
+                        </figure>
+                        <ul class="member_introduce">
+                            <li>名前 : みさき</li>
+                            <li>好きな中華料理 : 餃子</li>
+                            <li>みさきはこんな人！ <br> おしゃれ！</li>
+                            <li>みさきにひとこと！ <br> 会う機会すくないけどよろしく！</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+        <!-- メンバー紹介のコードここまで -->
+    </main>
+    <!-- フッターのコードここから -->
+    <footer class="footer">
+        <div class="footer-container">
+            <ul class="footer-team-list">
+                <li class="fotter-team-logo">
+                    <img src="./img/チームロゴ(2023.11ハッカソン).png" alt="チームロゴ" width="70" height="70">
+                </li>
+                <li class="footer-name">プログラミングは恋人<br>~クリスマスまで36日~<br>NabeC</li>
+            </ul>
+            <div class="footer-copyright">
+                <small lang="en">&copy; 2023.11.18~2023.11.19 Rookie Hakathon</small>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="./splide.min.js"></script>
+</body>
+
+</html>

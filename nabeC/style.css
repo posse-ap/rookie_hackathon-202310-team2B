@@ -1,0 +1,205 @@
+/* ヘッダーのコードここから */
+.header{
+    background-color: rgb(135, 56, 56) ;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;margin-bottom: 100px;
+}
+
+.header-contents{
+    display: flex;
+}
+
+.header-logo{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+
+.header-link-list{
+    display: flex;
+    gap: 60px;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+
+.header-link-content{
+    font-size: 30px;
+    color: burlywood;
+}
+/* ヘッダーのコードここから */
+
+/* 自己紹介のコードここから */
+.about_me_section{
+    margin-top: 10%;
+}
+
+.about_me_title{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 2%;
+    font-size: 30px;
+}
+
+.about_me{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.my_img{
+    padding-top: 2%;
+    width: 15%;
+    height: 20%;
+}
+
+.about_me_list{
+    width: 45%;
+    height: 50%;
+    background-color: rgb(135, 56, 56);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about_me_img_list{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 2%;
+}
+
+.about_me_img{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(135, 56, 56);
+    border-radius: 10px;
+    position: relative;
+}
+
+.about_me_img img{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.question_title{
+    margin-top: 2%;
+    margin-bottom: 4px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.question{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.question-input{
+    width: 40%;
+    height: 35px;
+    border: solid 3px;
+    border-radius: 10px;
+}
+
+.question-button{
+    background-color: rgb(135, 56, 56);
+    width: 60px;
+    height: 35px;
+    font-size: 15px;
+    color: burlywood;
+    border-radius: 10%;
+}
+
+.question-button:hover{
+    background-color: rgb(146, 88, 88);
+}
+
+/* 自己紹介のコードここまで */
+
+/* メンバー紹介のコードここから */
+.member_section{
+    margin-top: 6%;
+}
+
+.member_title{
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 30px;
+}
+
+.member_list{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.member{
+    background-color: rgb(135, 56, 56);
+    width: 250px;
+    height: 600px;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+
+.member-div{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.member_img img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.member_introduce{
+    margin-top: 15px;
+    color: burlywood;
+}
+/* メンバー紹介のコードここまで */
+
+/* フッターのコードここから */
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(135, 56, 56);
+    position: relative;
+    margin-top: 6%;
+}
+
+.footer-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.footer-team-list{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.footer-name{
+    margin-top: 3%;
+    text-align: center;
+    color: burlywood;
+}
+
+.footer-copyright{
+    text-align: center;
+    color: burlywood;
+}

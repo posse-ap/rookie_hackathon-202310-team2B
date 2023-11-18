@@ -1,0 +1,42 @@
+@media (max-width:426px){
+    /* ヘッダーのコードここから */
+    .header{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .header-link-list{
+        gap: 10px;
+    }
+
+    .header-link-content{
+        font-size: 20px;
+    }
+
+    .about_me_list{
+        width: 320px;
+    }
+
+    .about_me_img{
+        width: 120px;
+        height: 190px;
+    }
+
+    .about_me_img img{
+        width: 100px;
+        height: 150px;
+    }
+
+    .question-input{
+        width: 300px;
+    }
+
+    .member_list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-team-list{
+        width: 300px;
+    }
+}
