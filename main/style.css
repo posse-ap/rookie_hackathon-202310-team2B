@@ -1,0 +1,97 @@
+.header{
+    background: brown;
+    position: fixed;
+    z-index: 999;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    padding-top: 13px;
+    font-family: serif;
+}
+
+.main{
+    margin-top: 50px;
+    position: absolute;
+}
+
+.main-back{
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+
+.main-text{
+    position: absolute;
+    top: 27%;
+    left: 51%;
+    transform: translate(-50%, -50%); 
+    font-family: serif;
+    color: brown;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    z-index: 1; /* .main-text を手前に表示 */
+}
+
+.food-img{
+    width: 430px;
+    height: auto;
+}
+
+.tittle{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: serif;
+    padding-top: 3%;
+}
+
+.menu{
+    display: flex;
+}
+
+.staff-outer{
+    width: 230px;
+    background-color: sienna;
+    border-radius: 10px;
+}
+
+.staff-img{
+    width: 140px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.staff-info-inner{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.staff-name{
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10%;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer p{
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+}
