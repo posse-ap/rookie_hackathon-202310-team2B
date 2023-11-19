@@ -159,6 +159,8 @@
 }
 
 .member_img img{
+    object-fit: cover;
+    object-position: 50% 7%;
     width: 200px;
     height: 200px;
     text-align: center;

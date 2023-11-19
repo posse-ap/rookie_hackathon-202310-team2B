@@ -1,0 +1,168 @@
+.header{
+    background-color: brown;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 999;
+}
+.main-img{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.main-text{
+    position:absolute;
+    top: 66%;
+    right: 4%;
+    padding: 0;
+    margin: 0;
+    font-size: 33px;
+    color: white;
+}
+div.img-circle{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url("img/LINE_ALBUM_4.5入学式_231118_1.jpg");
+    background-position: 58% 52%;
+    margin: 6%;
+    background-size: 1370px;
+}
+.about-me{
+    display: flex;
+    border: solid 5px #b22d13;
+    margin: 60px;
+    border-radius: 40px;
+}
+.feature-text{
+    margin-top: 10px;
+    padding: 90px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+ul{
+    list-style: none;
+}
+.list-text{
+    margin-top: -60px;
+    font-size: 25px;
+    line-height: 70px;
+}
+.member-text{
+    text-align: center;
+    font-size: 50px;
+    margin: 5px;
+    padding: 5%;
+}
+.introduction-1{
+    display: flex;
+}
+.yoko-n1{
+    border: 3px solid #b22d13;
+    margin: 0 20px 50px 60px;
+    border-radius: 35px;
+}
+.yoko1{
+    font-size: 35px;
+    padding-left: 138px;
+    margin: 20px 0 0 0;
+    letter-spacing: 5px;
+}
+.img-1{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 20%;
+    margin: 20px 40px 10px 40px;
+    border-radius: 25px;
+}
+.intro1{
+    font-size: 25px;
+    padding-left: 39px;
+    padding-right: 30px;
+    margin: 15px 0 20px 0;
+}
+.yoko-n2{
+    border: 3px solid #b22d13;
+    margin: 0 60px 50px 20px;
+    border-radius: 35px;
+}
+.yoko2{
+    font-size: 35px;
+    padding-left: 138px;
+    margin: 20px 0 0 0;
+    letter-spacing: 5px;
+}
+.img-2{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 55% 0;
+    margin: 20px 40px 10px 40px;
+    border-radius: 25px;
+}
+.intro2{
+    font-size: 25px;
+    padding-left: 39px;
+    padding-right: 30px;
+    margin: 15px 0 20px 0;
+}
+.introduction-2{
+    display: flex;
+}
+.yoko-m3{
+    border: 3px solid #b22d13;
+    margin: 0 20px 295px 60px;
+    border-radius: 35px;
+}
+.yoko3{
+    font-size: 35px;
+    padding-left: 138px;
+    margin: 20px 0 0 0;
+    letter-spacing: 5px;
+}
+.img-3{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 15%;
+    margin: 20px 40px 10px 40px;
+    border-radius: 25px;
+}
+.intro3{
+    font-size: 25px;
+    padding-left: 39px;
+    padding-right: 30px;
+    margin: 15px 0 20px 0;
+}
+.yoko-j4{
+    border: 3px solid #b22d13;
+    margin: 0 60px 295px 20px;
+    border-radius: 35px;
+}
+.yoko4{
+    font-size: 35px;
+    padding-left: 138px;
+    margin: 20px 0 0 0;
+    letter-spacing: 5px;
+}
+.img-4{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 0;
+    margin: 20px 40px 10px 40px;
+    border-radius: 25px;
+}
+.intro4{
+    font-size: 25px;
+    padding-left: 37px;
+    padding-right: 30px;
+    margin: 15px 0 20px 0;
+}
+.footer{
+    background-color: brown;
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+}
