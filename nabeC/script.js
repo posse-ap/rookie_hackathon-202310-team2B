@@ -6,12 +6,13 @@ const question_button = () =>{
     document.getElementById("question-input").value = "";
 }
 
-const Slideoptions = {
+const slideOptions = {
     width: 1000,
     type: 'loop',
     perPage: 3,
+    pagination:false,
 }
 
 document.addEventListener('DOMContentLoaded',function (){
-    new Splide ('.member_list',Slideoptions).mount();
+    new Splide ('#member_list_outer',slideOptions).mount();
 });
