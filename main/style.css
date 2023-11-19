@@ -17,14 +17,15 @@
 }
 
 .main-back{
+    background-image: url(./img/red-width.jpg);
     width: 100vw;
-    height: auto;
+    height: 500px;
     position: relative;
 }
 
 .main-text{
     position: absolute;
-    top: 27%;
+    top: 12%;
     left: 51%;
     transform: translate(-50%, -50%); 
     font-family: serif;
@@ -38,6 +39,7 @@
 .food-img{
     width: 430px;
     height: auto;
+    margin: 20px 20px 20px 20px;
 }
 
 .tittle{
@@ -45,11 +47,28 @@
     font-size: 50px;
     font-weight: 800;
     font-family: serif;
-    padding-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 .menu{
     display: flex;
+    justify-content: center;
+}
+
+.menu_list{
+    display: flex;
+    justify-content: center;
+}
+
+.food_menu{
+    font-size: 24px;
+    text-align: center;
+}
+
+.food_contents{
+    display: flex;
+    flex-direction: column;
 }
 
 .staff-outer{
@@ -70,6 +89,7 @@
     display: flex;
     justify-content: center;
     gap: 10%;
+    margin-bottom: 100px;
 }
 
 .staff-name{
@@ -81,6 +101,37 @@
     padding-bottom: 10%;
 }
 
+.evaluation{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-bottom: 170px;
+  }
+  .evaluation input[type='radio']{
+    display: none;
+  }
+  .evaluation label{
+    position: relative;
+    padding: 10px 10px 0;
+    color: gray;
+    cursor: pointer;
+    font-size: 50px;
+  }
+  .evaluation label .text{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+  }
+  .evaluation label:hover,
+  .evaluation label:hover ~ label,
+  .evaluation input[type='radio']:checked ~ label{
+    color: #ffcc00;
+  }
+
 .footer{
     width: 100%;
     height: 50px;
@@ -89,7 +140,7 @@
     bottom: 0;
 }
 
-.footer p{
+.footer_p{
     color: white;
     font-family: serif;
     font-size: 20px;
