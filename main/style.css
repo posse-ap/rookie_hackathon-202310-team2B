@@ -34,21 +34,29 @@
     font-weight: 900;
     text-align: center;
     z-index: 1; /* .main-text を手前に表示 */
+    text-shadow: 1px 1px 4px black;
 }
 
 .food-img{
-    width: 430px;
-    height: auto;
+    width: 300px;
+    height: 200px;
     margin: 20px 20px 20px 20px;
+    border-radius: 25px;
 }
 
 .tittle{
     text-align: center;
-    font-size: 50px;
+    font-size: 43px;
     font-weight: 800;
     font-family: serif;
     padding-top: 5%;
-    padding-bottom: 2%;
+    border-bottom: 1px;
+    border-bottom: 2px solid;
+    width: 270px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    text-shadow: 1px 1px 2px;
 }
 
 .menu{
@@ -62,8 +70,10 @@
 }
 
 .food_menu{
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
+    font-family: serif;
+    font-weight: bold;
 }
 
 .food_contents{
@@ -75,6 +85,7 @@
     width: 230px;
     background-color: sienna;
     border-radius: 10px;
+    box-shadow: 2px 2px 7px;
 }
 
 .staff-img{
