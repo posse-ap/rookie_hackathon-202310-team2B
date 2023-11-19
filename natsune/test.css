@@ -1,8 +1,49 @@
 @media (max-width: 425px) {
 
+.about-me{
+    height: 880px;
+}
 
+.header{
+    height: 8%;
+}
 
+.rinrin-text{
+    font-size: 30px;
+    padding: 3%;
+}
 
+.name-j{
+    font-size: 30px;
+}
+
+.name-c{
+    font-size: 18px;
+}
+
+.fried-rice{
+    width: 35%;
+    height: 100px;
+}
+
+.gyouza{
+    width: 35%;
+    height: 100px;
+}
+
+.spring-roll{
+    width: 35%;
+    height: 100px;
+}
+
+.infromation-me{
+    font-size: 18px;
+}
+
+.footer p{
+    font-size: 14px;
+    padding-top: 5px;
+}
 
 
 
